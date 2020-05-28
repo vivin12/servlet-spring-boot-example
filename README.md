@@ -28,3 +28,13 @@ Instructions are for MAC users. Please refer the official site of MariaDB if you
 
     `INSERT INTO books(book_id, book_name) VALUES (1, "shoe dog");
      INSERT INTO books(book_id, book_name) VALUES (2, “War on normal people”);`
+
+## Steps to run the project 
+
+1. Clone the repo.
+2. Execute the below command from the project directory 
+   
+   `mvn sprong-boot:run`
+3. Invoke the below GET service from your browser or any other client. The response should display the row count and data in the books table. 
+
+   `http://localhost:8080/fetch`
