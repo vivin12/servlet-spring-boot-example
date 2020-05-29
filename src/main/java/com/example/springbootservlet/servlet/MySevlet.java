@@ -16,8 +16,6 @@ import java.util.List;
 @WebServlet(urlPatterns = "/fetch", loadOnStartup = 1)
 public class MySevlet extends HttpServlet {
 
-    private static final long serialVersionUID = 1L;
-
     @Autowired
     private BookRepository bookRepository;
     private ObjectMapper Obj = new ObjectMapper();
