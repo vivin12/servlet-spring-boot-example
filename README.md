@@ -35,6 +35,9 @@ Instructions are for MAC users. Please refer the official site of MariaDB if you
 2. Execute the below command from the project directory 
    
    `mvn sprong-boot:run`
-3. Invoke the below GET service from your browser or any other client. The response should display the row count and data in the books table. 
+3. Invoke the below GET service from your browser or any other client. The response should display the row count and data in the books table. We use spring-data to fetch results in this service. 
 
    `http://localhost:8080/fetch`
+   
+4. Invoke the below GET service from your browser or any other client. The response should display the row count and data in the books table. We use JDBC to fetch results in this service.
+   `http://localhost:8080/jdbc/fetch`
